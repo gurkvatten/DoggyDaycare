@@ -1,6 +1,7 @@
 import React,{ useState, useEffect } 
 from "react";
 import { Link } from 'react-router-dom';
+import './Dogspage.css';
 
 
 function DogsPage() {
@@ -17,7 +18,7 @@ function DogsPage() {
 
   return (
     <div>
-    <h2>Our dogs</h2>
+    <h1>Our dogs</h1>
     <ul>
     {dogs.map((dog) => (
   <li key={dog.name}>

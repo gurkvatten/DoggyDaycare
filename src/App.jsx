@@ -9,12 +9,12 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="container"> 
         <h1>Doggy Daycare</h1>
 
-        {}
-        <Link to="/">Go to Dogs Page</Link>
-
+        <nav>
+          <Link to="/">Go to Dogs Page</Link>
+        </nav>
         {}
         <Routes>
           <Route path="/" element={<DogsPage />} /> {}
