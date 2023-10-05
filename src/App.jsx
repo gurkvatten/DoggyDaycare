@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
-import DogsPage from './Components/DogsPage'; // Importera din katalogsida
-import DetailPage from './Components/DetailPage'; // Importera din detaljsida
+import DogsPage from './Components/DogsPage'; 
+import DetailPage from './Components/DetailPage'; 
 
 import './App.css';
 
@@ -12,13 +12,13 @@ function App() {
       <div>
         <h1>Doggy Daycare</h1>
 
-        {/* Lägg till en knapp för att navigera till DogsPage */}
+        {}
         <Link to="/">Go to Dogs Page</Link>
 
-        {/* Router för att hantera vägarna */}
+        {}
         <Routes>
-          <Route path="/" element={<DogsPage />} /> {/* Katalogsidan */}
-          <Route path="/dog/:name" element={<DetailPage />} /> {/* Detaljsidan */}
+          <Route path="/" element={<DogsPage />} /> {}
+          <Route path="/dog/:name" element={<DetailPage />} /> {}
         </Routes>
       </div>
     </Router>

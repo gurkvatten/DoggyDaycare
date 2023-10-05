@@ -14,7 +14,7 @@ function DetailPage() {
         return response.json();
       })
       .then((data) => {
-        console.log('API response:', data); // Lägg till detta för att logga API-svaret
+        console.log('API response:', data); 
         setDog(data);
       })
       .catch((error) => {
@@ -26,7 +26,7 @@ function DetailPage() {
     return <p>Loading...</p>;
   }
 
-  // Visa detaljer om hunden
+  
   return (
     <div>
       <h1>{dog.name}</h1>
