@@ -22,6 +22,7 @@ function DogsPage() {
     <ul>
     {dogs.map((dog) => (
   <li key={dog.name}>
+    <img src={dog.img}></img>
     <Link to={`/dog/${dog.name}`}>{dog.name}</Link>
   </li>
 ))}

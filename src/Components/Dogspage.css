@@ -3,6 +3,10 @@
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    border-radius: 23px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #a4a4a4,
+            inset -5px -5px 10px #ffffff;
   }
   
   h2 {
@@ -13,6 +17,12 @@
   ul {
     list-style-type: none;
     padding: 0;
+    columns: 3;
+    border-radius: 23px;
+    font-weight: bold;
+    
+    
+    
   }
   
   li {
@@ -22,7 +32,7 @@
   
   a {
     text-decoration: none;
-    color: #007bff; 
+    color: #333; 
     font-weight: bold;
     transition: color 0.3s ease;
   }
@@ -30,8 +40,11 @@
   a:hover {
     color: #0056b3; 
   }
-  
-  
-  body {
-    background-color: #f5f5f5;
+  img {
+    max-width: 256px;
+    align-self: center;
+    border-radius: 22px;
   }
+  
+  
+ 
